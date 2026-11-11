@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/booking}
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/event}
     username: ${DB_USERNAME:ticketflow}
     password: ${DB_PASSWORD:ticketflow}
   jpa:
